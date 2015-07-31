@@ -1,0 +1,2 @@
+;; Analyzed by ClojureScript 0.0-3308
+{:name minesweeper.client, :doc nil, :excludes #{}, :use-macros nil, :require-macros {om om.core, om.core om.core}, :uses nil, :requires {game minesweeper.game, minesweeper.game minesweeper.game, board minesweeper.board, minesweeper.board minesweeper.board, om om.core, om.core om.core}, :imports nil, :cljs.analyzer/constants {:seen #{:target}, :order [:target]}}
