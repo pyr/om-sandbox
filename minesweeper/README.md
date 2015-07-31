@@ -8,7 +8,7 @@ Playing around with clojurescript and om.
 
 ### Playing
 
-Head over to http://pyr.github.io/minesweeper
+Head over to http://pyr.github.io/minesweeper/minesweeper.html
 
 ### Building
 
