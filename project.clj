@@ -1,4 +1,4 @@
-(defproject om-sandbox "0.3.0"
+(defproject om-sandbox "0.3.1"
   :description "playground for om projects"
   :url "https://github.com/pyr/om-sandbox"
   :license {:name "MIT License"}
