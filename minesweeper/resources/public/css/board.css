@@ -1,0 +1,135 @@
+/*
+ * This is obviously inspired from Gabriele Cirulli's 2048.
+ * Much props to him.
+ */
+
+body {
+  margin: 5px;
+  background-color: #faf8ef;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+.board {
+  margin: 0 auto;
+  width: 990px;
+}
+
+.grid {
+  width: 990px;
+  position: relative;
+  padding: 15px;
+  cursor: default;
+  background: #bbada0;
+  border-radius: 6px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  z-index: 10;
+  font-size: 55px;
+  line-height: 107px;
+  color: #776e65;
+}
+
+.grid.grid-modal {
+  opacity: 0.5;
+}
+
+.grid-row {
+  margin-bottom: 15px;
+}
+
+.grid-row:last-child {
+  margin-bottom: 0;
+}
+
+.grid-row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.grid-cell {
+  width: 106.25px;
+  height: 106.25px;
+  margin-right: 15px;
+  float: left;
+  border-radius: 3px;
+}
+
+.grid-cell.grid-cell-standard {
+  background: rgba(238, 228, 218, 0.35); 
+}
+
+.grid-cell:last-child {
+  margin: 0px;
+}
+
+.grid-cell.grid-cell-clear {
+  background: #bbada0;
+}
+
+.grid-cell.grid-cell-1 {
+  background: #eee4da;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+
+.grid-cell.grid-cell-2 {
+  background: #ede0c8;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0);
+}
+
+.grid-cell.grid-cell-3 {
+  color: #f9f6f2;
+  background: #edcf72;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+}
+
+.grid-cell.grid-cell-4 {
+  color: #f9f6f2;
+  background: #edcc61;
+  box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+}
+
+.grid-cell.grid-cell-5 {
+  color: #f9f6f2;
+  background: #f2b179;
+}
+
+.grid-cell.grid-cell-6 {
+  color: #f9f6f2;
+  background: #f59563;
+}
+
+.grid-cell.grid-cell-7 {
+  color: #f9f6f2;
+  background: #f67c5f;
+}
+
+.grid-cell.grid-cell-8 {
+  color: #f9f6f2;
+  background: #f65e3b;
+}
+
+.refresh-button {
+  margin-top: 10px;
+  background: #8F7A66 none repeat scroll 0% 0%;
+  border-radius: 3px;
+  color: #F9F6F2;
+  width: 100px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  float: right;
+}
+
+.game-message {
+  margin-top: 10px;
+  font-size: 60px;
+  font-weight: bold;
+  color: #776e65;
+  text-align: center;
+  float: center;
+  width: 100%;
+}

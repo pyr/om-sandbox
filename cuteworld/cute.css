@@ -1,0 +1,98 @@
+
+html, body {
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.game-container {
+  -webkit-touch-callout: none;
+  -ms-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -ms-touch-action: none;
+  -webkit-touch-action: none;
+  touch-action: none;
+}
+
+.info {
+  position: absolute;
+  zindex: 50;
+  color: red;
+  left: 10;
+  top: 10;
+          
+}
+
+.wood {
+  width: 100px;
+  display: block;
+  background-image: url("img/wood.png");
+}
+
+.grass {
+  width: 100px;
+  background-image: url("img/grass.png");
+}
+
+.gem1 {
+  width: 100px;
+  background-image: url("img/gem1.png");
+  background-position: 0 -20px;
+  transform: scale(0.6, 0.6);
+  -webkit-transform: scale(0.6, 0.6);
+    zindex: 20;
+}
+
+.gem2 {
+  width: 100px;
+  background-image: url("img/gem2.png");
+  background-position: 0 -20px;
+  transform: scale(0.6, 0.6);
+  -webkit-transform: scale(0.6, 0.6);
+  zindex: 20;
+}
+
+.gem3 {
+  width: 100px;
+  background-image: url("img/gem3.png");
+  background-position: 0 -20px;
+  transform: scale(0.6, 0.6);
+  -webkit-transform: scale(0.6, 0.6);
+  zindex: 20;
+}
+
+.player {
+  width: 100px;
+  background-image: url("img/player.png");
+  background-position: 0 -20px;
+  zindex: 30;
+}
+
+#app {
+  width: 900px;
+  height: 900px;
+}
+
+.row0 { position: absolute; top: -50; height: 170px; zindex: 0}
+.row1 { position: absolute; top: 40;  height: 170px; zindex: 1}
+.row2 { position: absolute; top: 125; height: 170px; zindex: 2}
+.row3 { position: absolute; top: 210; height: 170px; zindex: 3}
+.row4 { position: absolute; top: 295; height: 170px; zindex: 4}
+.row5 { position: absolute; top: 380; height: 170px; zindex: 5}
+.row6 { position: absolute; top: 465; height: 170px; zindex: 6}
+.row7 { position: absolute; top: 550; height: 170px; zindex: 7}
+.row8 { position: absolute; top: 635; height: 170px; zindex: 8}
+
+.col0 { position: absolute; left: 0; }
+.col1 { position: absolute; left: 100; }
+.col2 { position: absolute; left: 200; }
+.col3 { position: absolute; left: 300; }
+.col4 { position: absolute; left: 400; }
+.col5 { position: absolute; left: 500; }
+.col6 { position: absolute; left: 600; }
+.col7 { position: absolute; left: 700; }
+.col8 { position: absolute; left: 800; }
